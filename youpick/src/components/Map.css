@@ -1,0 +1,45 @@
+.pin{
+    font-weight: bold;
+    border: black;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+}
+
+.pin:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: lightcoral;
+    border: 2px solid lightcoral;
+    border-radius: 100%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+}
+
+.pin-text {
+    font-weight: bold;
+    font-size: 12px;
+    color:black;
+    border: 2px solid darkgreen;
+    border-radius: 15%;
+    background-color: lightgreen;
+    text-align: center;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transform: translate(-50%, -50%);
+    
+}
